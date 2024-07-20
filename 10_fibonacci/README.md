@@ -10,3 +10,7 @@ Create a function that returns a specific member of the Fibonacci sequence:
 fibonacci(4); // returns the 4th member of the series: 3  (1, 1, 2, 3)
 fibonacci(6); // returns 8
 ```
+
+Create array with [1, 1]
+Create loop that adds numbers together and pushes them into the array
+Return the last number in an array (array.length - 1)
