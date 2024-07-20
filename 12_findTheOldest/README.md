@@ -4,6 +4,11 @@ Given an array of objects representing people with a birth and death year, retur
 
 Now that you've reached the final exercise, you should be fairly comfortable getting the information you need from test case(s). Take a look at how the array of objects is constructed in this exercise's test cases to help you write your function.
 
+Iterate through the array
+On each object, subtract the birth date from the death date
+If it's greater than the previous object, return it. Otherwise, return the previous object
+Return the "King of the Hill" at the end
+
 ## Hints
 - You should return the whole person object, but the tests mostly just check to make sure the name is correct.
 - There are many ways of doing this using built-in array methods like `reduce`, or even chaining multiple! 
