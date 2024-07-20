@@ -16,4 +16,9 @@ palindromes('racecar') // true
 palindromes('tacos') // false
 ```
 
+Split the string into an array
+Iterate through the array and if the character is a number or letter, push it to a new array
+Declare a new variable that is the new array reversed
+If the variable and the new array are the same, then the string is a palindrome
+
 

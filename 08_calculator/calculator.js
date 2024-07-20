@@ -63,7 +63,7 @@ const power = function(num1, num2) {
 };
 
 const factorial = function(num) {
-
+  
   let total = 1;
 
   if(num == 0) {
